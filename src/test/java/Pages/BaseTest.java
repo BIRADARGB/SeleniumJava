@@ -9,6 +9,7 @@ public class BaseTest {
 
     public void launchApplication(){
         driver = new ChromeDriver();
+        driver.manage().window().maximize();
         driver.get("https://www.naukri.com");
     }
 
